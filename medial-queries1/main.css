@@ -1,36 +1,43 @@
 body {
-  background: blanchedalmond;
-}
-
-* {
-  border: 1px solid teal;
+  background: rgb(241, 197, 234);
 }
 
 .container {
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
-  justify-content: space-between;
+  min-height: 100vh;
 }
 
-header, footer  {
+.a {
   flex-grow: 1;
+  border: 2px solid rgb(201, 37, 65);
+  margin: 20px;
 }
 
-main {
-  flex-grow:3;
+.b {
+  flex-grow: 3;
+  border: 2px solid rgb(201, 37, 65);
+  margin: 20px;
 }
 
+.c {
+  flex-grow: 1;
+  border: 2px solid rgb(201, 37, 65);
+  margin: 20px;
+}
 
 @media (min-width: 600px) {
+
   .container {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  header {
+
+  .a {
     width: 100%;
   }
-  main, footer, header {
+
+  .a, .b, .c {
     margin: 1em;
   }
 }

@@ -2,7 +2,88 @@ body {
   background: papayawhip;
 }
 
-* {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
   border: 1px solid teal;
   box-sizing: border-box;
 }
@@ -12,9 +93,9 @@ body {
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
-}
+} */
 
-.wrapper {
+/* .wrapper {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -36,22 +117,22 @@ aside  {
   width: 90%;
   min-height: 20vh;
 
-}
+} */
 
-aside > div {
+/* aside > div {
   flex-grow: 10;
   margin: .5em;
   /* min-width: 20vh; */
-}
+/* }
 
 main {
   width: 90%;
   flex-grow: 3;
   margin: .5em;
-}
+} */
 
 
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
   .container {
     flex-direction: row;
     flex-wrap: wrap;
@@ -59,8 +140,8 @@ main {
   header {
     width: 100%;
     max-height: 10vh;
-  }
-  .wrapper {
+  } */ 
+  /* .wrapper {
     justify-content: stretch;
     flex-basis: 70%;
       min-height:  80vh;
@@ -70,4 +151,4 @@ main {
     flex-grow: 3;
     min-height:  80vh;
   }
-}
+} */
